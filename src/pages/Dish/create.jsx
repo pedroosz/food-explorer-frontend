@@ -61,7 +61,7 @@ export function CreateDishPage() {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
 
-    if (categorySelectValue === "0") {
+    if (categorySelectValue == "0") {
       const categoryPrompt = prompt("Digite o nome da nova categoria");
 
       try {

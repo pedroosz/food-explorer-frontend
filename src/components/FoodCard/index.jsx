@@ -20,7 +20,7 @@ export function FoodCard({ dish }) {
   return (
     <div>
       <StyledDiv>
-        <CardImage src={`http://localhost:3000/uploads/${dish.image}`} />
+        <CardImage src={`https://food-explorer-backend-production.up.railway.app/uploads/${dish.image}`} />
         <CardTitle href={`/dish/${dish.id}`}>
           {dish.name} {">"}
         </CardTitle>

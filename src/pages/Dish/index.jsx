@@ -58,7 +58,7 @@ export function DishPage() {
         </GoBackButton>
 
         <FoodWrapper>
-          <FoodImage src={`http://localhost:3000/uploads/${dish.image}`} />
+          <FoodImage src={`https://food-explorer-backend-production.up.railway.app/uploads/${dish.image}`} />
 
           <FoodInfo>
             <FoodInfoTitle>{dish.name}</FoodInfoTitle>

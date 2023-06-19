@@ -42,3 +42,6 @@ Password: 123456
 
 #### Live project
 https://food-explorer-frontend-alpha.vercel.app/
+
+#### Back-end repo
+https://github.com/pedroosz/food-explorer-backend

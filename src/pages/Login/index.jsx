@@ -36,6 +36,7 @@ export function LoginPage() {
 					<FormLabel htmlFor="nameInput">Email</FormLabel>
 					<FormInput
 						id="nameInput"
+						type="email"
 						placeholder="Exemplo: exemplo@exemplo.com.br"
 						onChange={(e) => setEmail(e.target.value)}
 					/>

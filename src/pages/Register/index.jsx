@@ -59,7 +59,7 @@ export function RegisterPage() {
 					<FormLabel htmlFor="nameInput">Nome</FormLabel>
 					<FormInput
 						id="nameInput"
-						type="email"
+						type="text"
 						placeholder="Exemplo: Maria da Silva"
 						onChange={(e) => setName(e.target.value)}
 					/>
